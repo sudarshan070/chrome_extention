@@ -1,0 +1,215 @@
+@import url("normalize.css");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ========================== */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.2;
+  color: black;
+}
+
+.container {
+  width: 650px;
+  margin: 0 24px;
+}
+
+.heading {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 24px 0;
+  text-shadow: 2px 2px 2px #b6b6b6;
+}
+
+h1 {
+  font-size: 1rem;
+  color: #777777;
+  padding: 1rem 0;
+}
+
+li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+h2 {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #c8c7c7dc;
+}
+
+h3 {
+  background: #f1e5ca;
+  padding: 5px;
+}
+
+p {
+  padding: 12px 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.method {
+  width: 49%;
+  border-top: 2px solid #bbb;
+  background-color: #fff;
+  border-radius: 10px;
+  border-bottom: 2px solid #aaa;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  padding: 0px 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* ======================== */
+/*# sourceMappingURL=style.css.map */

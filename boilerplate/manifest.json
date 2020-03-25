@@ -1,0 +1,13 @@
+{
+  "name": "AltCampus New Tab Extension",
+  "description": "AltCampus Personalised New Tab Chrome Extension",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "Sudarshan Shinde",
+  "browser_action": {
+    "default_icon": "jsmethods.png",
+    "default_popup": "index.html",
+    "default_title": "My chorme Extention"
+  },
+  "permissions": ["activeTab"]
+}

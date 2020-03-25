@@ -1,0 +1,202 @@
+{
+  "arrayMethod": [
+    {
+      "methodName": "Array.from ()",
+      "description": "The Array.from () method creates a new, shallow-copied Array instance from an array-like or iterable object.",
+      "syntax": "Array.from(arrayLike [, mapFn [, thisArg]])"
+    },
+
+    {
+      "methodName": "Array.concat ()",
+      "description": "The concat () method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+      "syntax": "const new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])"
+    },
+    {
+      "methodName": "Array.every ()",
+      "description": "The every () method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.",
+      "syntax": "arr.every(callback(element[, index[, array]])[, thisArg])"
+    },
+    {
+      "methodName": "Array.fill ()",
+      "description": "The fill () method changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array.",
+      "syntax": "arr.fill(value[, start[, end]])"
+    },
+    {
+      "methodName": "Array.filter ()",
+      "description": "The filter () method creates a new array with all elements that pass the test implemented by the provided function.",
+      "syntax": "let newArray = arr.filter(callback(element[, index, [array]])[, thisArg])"
+    },
+    {
+      "methodName": "Array.find ()",
+      "description": "The find () method returns the value of the first element in the provided array that satisfies the provided testing function.",
+      "syntax": "arr.find(callback(element[, index[, array]])[, thisArg])"
+    },
+    {
+      "methodName": "Array.findIndex ()",
+      "description": "The findIndex () method returns the index of the first element in the array that satisfies the provided testing function. Otherwise, it returns -1, indicating that no element passed the test.",
+      "syntax": "arr.findIndex(callback( element[, index[, array]] )[, thisArg])"
+    },
+    {
+      "methodName": "Array.flat ()",
+      "description": "The flat () method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.",
+      "syntax": "var newArray = arr.flat([depth]);"
+    },
+    {
+      "methodName": "Array.forEach ()",
+      "description": "The forEach () method executes a provided function once for each array element.",
+      "syntax": "arr.forEach(callback(currentValue [, index [, array]])[, thisArg])"
+    },
+    {
+      "methodName": "Array.includes ()",
+      "description": "The includes () method determines whether an array includes a certain value among its entries, returning true or false as appropriate.",
+      "syntax": "arr.includes(valueToFind[, fromIndex])"
+    },
+    {
+      "methodName": "Array.indexOf ()",
+      "description": "The indexOf () method returns the first index at which a given element can be found in the array, or -1 if it is not present.",
+      "syntax": "arr.indexOf(searchElement[, fromIndex])"
+    },
+    {
+      "methodName": "Array.join ()",
+      "description": "The join () method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.",
+      "syntax": "arr.join([separator])"
+    },
+    {
+      "methodName": "Array.map ()",
+      "description": "The map () method creates a new array populated with the results of calling a provided function on every element in the calling array.",
+      "syntax": "let new_array = arr.map(function callback( currentValue[, index[, array]]) {// return element for new_array}[, thisArg])"
+    },
+    {
+      "methodName": "Array.reduce ()",
+      "description": "The reduce () method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.",
+      "syntax": "arr.reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])"
+    },
+    {
+      "methodName": "Array.reverse ()",
+      "description": "The reverse () method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.",
+      "syntax": "a.reverse ()"
+    },
+    {
+      "methodName": "Array.slice ()",
+      "description": "The slice () method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included) where begin and end represent the index of items in that array. The original array will not be modified.",
+      "syntax": "arr.slice([begin[, end]])"
+    },
+    {
+      "methodName": "Array.some ()",
+      "description": "The some () method tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value. ",
+      "syntax": "arr.some(callback(element[, index[, array]])[, thisArg])"
+    },
+    {
+      "methodName": "Array.sort ()",
+      "description": "The sort () method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.",
+      "syntax": "arr.sort([compareFunction])"
+    },
+    {
+      "methodName": "Array.splice ()",
+      "description": "The splice () method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.",
+      "syntax": "let arrDeletedItems = array.splice(start[, deleteCount[, item1[, item2[, ...]]]])"
+    },
+    {
+      "methodName": "Array.String ()",
+      "description": "The toString () method returns a string representing the specified array and its elements.",
+      "syntax": "arr.toString ()"
+    },
+    {
+      "methodName": "Array.values ()",
+      "description": "The values () method returns a new Array Iterator object that contains the values for each index in the array.",
+      "syntax": "arr.values ()"
+    }
+  ],
+  "stringmethod": [
+    {
+      "methodName": "String.fromCharCode ()",
+      "description": "static String.fromCharCode () method returns a string created from the specified sequence of UTF-16 code units. ",
+      "syntax": "String.fromCharCode(num1[, ...[, numN]])"
+    },
+    {
+      "methodName": "String.fromCodePoint ()",
+      "description": "The static String.fromCodePoint () method returns a string created by using the specified sequence of code points.",
+      "syntax": "String.fromCodePoint(num1[, ...[, numN]])"
+    },
+    {
+      "methodName": "String.charAt ()",
+      "description": "The String object's charAt () method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.",
+      "syntax": "let character = str.charAt(index)"
+    },
+    {
+      "methodName": "String.concat ()",
+      "description": "The concat () method concatenates the string arguments to the calling string and returns a new string.",
+      "syntax": "str.concat(str2 [, ...strN])"
+    },
+    {
+      "methodName": "String.endsWith ()",
+      "description": "The endsWith () method determines whether a string ends with the characters of a specified string, returning true or false as appropriate.",
+      "syntax": "str.endsWith(searchString[, length])"
+    },
+    {
+      "methodName": "String.includes ()",
+      "description": "The includes () method determines whether one string may be found within another string, returning true or false as appropriate.",
+      "syntax": "str.includes(searchString[, position])"
+    },
+    {
+      "methodName": "String.indexOf ()",
+      "description": "The indexOf () method returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.",
+      "syntax": "str.indexOf(searchValue [, fromIndex])"
+    },
+    {
+      "methodName": "String.lastIndexOf ()",
+      "description": "The lastIndexOf () method returns the index within the calling String object of the last occurrence of the specified value, searching backwards from fromIndex. Returns -1 if the value is not found.",
+      "syntax": "str.lastIndexOf(searchValue[, fromIndex])"
+    },
+    {
+      "methodName": "String.padEnd ()",
+      "description": "The padEnd () method pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string.",
+      "syntax": "str.padEnd(targetLength [, padString])"
+    },
+    {
+      "methodName": "String.padStart ()",
+      "description": "The padStart () method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.",
+      "syntax": "str.padStart(targetLength [, padString])"
+    },
+    {
+      "methodName": "String.repeat ()",
+      "description": "The repeat () method constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.",
+      "syntax": "str.repeat(count)"
+    },
+    {
+      "methodName": "String.split ()",
+      "description": "The split () method turns a String into an array of strings, by separating the string at each instance of a specified separator string",
+      "syntax": "str.split([separator[, limit]])"
+    },
+    {
+      "methodName": "String.startsWith ()",
+      "description": "The startsWith () method determines whether a string begins with the characters of a specified string, returning true or false as appropriate.",
+      "syntax": "str.startsWith(searchString[, position])"
+    },
+    {
+      "methodName": "String.substring ()",
+      "description": "The substring () method returns the part of the string between the start and end indexes, or to the end of the string.",
+      "syntax": "str.substring(indexStart[, indexEnd])"
+    },
+    {
+      "methodName": "String.toLowerCase ()",
+      "description": "The toLowerCase () method returns the calling string value converted to lower case, according to any locale-specific case mappings.",
+      "syntax": "str.toLowerCase ()"
+    },
+    {
+      "methodName": "String.toUpperCase ()",
+      "description": "The toUpperCase () method returns the calling string value converted to uppercase",
+      "syntax": "str.toUpperCase ()"
+    },
+    {
+      "methodName": "String.trim ()",
+      "description": "The trim () method removes whitespace from both ends of a string.",
+      "syntax": "str.trim ()"
+    },
+    {
+      "methodName": "String.valueOf ()",
+      "description": "The valueOf () method returns the primitive value of a String object.",
+      "syntax": "str.valueOf ()"
+    }
+  ]
+}
